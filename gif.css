@@ -1,0 +1,32 @@
+body {
+	background-color: orange;
+}
+
+.animal {
+	margin: 5px;
+}
+
+.item {
+	height: 200px;
+	margin: 20px;
+	float: left;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+}
+
+.btn {
+	background-color: blue;
+	color: white;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+#addAnimal {
+	background-color: blue;
+	color: white;
+}
