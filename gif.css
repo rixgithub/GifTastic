@@ -1,5 +1,31 @@
 body {
-	background-color: orange;
+	background-color: #3d71cc;
+}
+
+.jumbotron {
+	background-image: url('./images/capital.jpg');
+	   /* Center and scale the image nicely */
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    overflow: hidden;
+       /*---------------------------------*/
+    margin-bottom: 0;
+ 	text-align: center;
+}
+
+.jumbotron h1 {
+	font-size: 150px;
+	font-family: 'Fredericka the Great', cursive;
+	color: white;
+/*	font-weight: bold;*/
+}
+
+@media screen and (max-width: 550px) {
+    .jumbotron h1 {
+        font-size: 75px;
+    }
 }
 
 .animal {
@@ -13,20 +39,22 @@ body {
 }
 
 img {
-	height: 200px;
-	width: 200px;
+	height: 175px;
+	width: 175px;
 }
 
 .btn {
-	background-color: blue;
+	background-color: #3d71cc;
+	border: 0;
 	color: white;
 }
 
-h1 {
-	font-size: 100px;
+.panel {
+	margin: 20px;
 }
 
 #addAnimal {
-	background-color: blue;
+	background-color: #3d71cc;
 	color: white;
 }
+

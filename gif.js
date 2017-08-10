@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	var topics = ["Kitten", "Puppy", "Bear", "Otter", "Deer", "Piglet", "Hedgehog", "Panda", "Bunny", "Dolphin"];
+	var topics = ["Clinton", "Trump", "Republicans", "Democrats"];
 	var apiKey = "dc6zaTOxFJmzC";
 
 
@@ -67,7 +67,7 @@ $(document).ready(function() {
         $("#addAnimal").prop('disabled', this.value == "" ? true : false);     
     })
 
-    // adds a new animal button when user enters an animal in text field
+    // adds a new button when user enters an animal in text field
 	$("#addAnimal").on("click", function(event) {	
 			event.preventDefault();
 			var animal = $("#animal-input").val().trim();
@@ -76,7 +76,7 @@ $(document).ready(function() {
 			$("input:text").val("");
 	});
 
-	// event listener for the animal buttons which will display gifs when animal button is clicked
+	// event listener for the buttons which will display gifs when button is clicked
 	$(document).on("click", ".animal", displayAnimalInfo);
 
 	// call function to render buttons on page load
