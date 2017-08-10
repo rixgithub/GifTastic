@@ -7,7 +7,7 @@ $(document).ready(function() {
 // ajax call to the giphy API and creates gif divs dynamically
 	function displayAnimalInfo() {
 		var animal = $(this).attr("data-name");
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=" + apiKey + "&limit=10&rating"
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=" + apiKey + "&limit=10&rating"
 
 		$.ajax({
 			url: queryURL,
