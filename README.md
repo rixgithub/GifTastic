@@ -1,4 +1,4 @@
-# GifTastic
+# Politix & Gifs
 
 ### Overview
 
