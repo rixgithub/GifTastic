@@ -49,7 +49,7 @@ $(document).ready(function() {
       	}
 	});
 	
-	// renders buttons on page load and when user inputs new animal 
+	// renders buttons on page load and when user inputs new topic 
 	function renderButtons() {
 		$("#animalButtons").empty();
 		for (var i = 0; i < topics.length; i++) {
